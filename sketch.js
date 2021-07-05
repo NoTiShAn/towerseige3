@@ -155,11 +155,11 @@ function keyPressed(){
     console.log(hour);
     console.log(dateTime);
     if(hour >=6 && hour <19){
-      bg = "bg.jpg";
+      bg = "white";
     }
     else{
-      bg = "bg1.jpg";
+      bg = "black";
     }
   
-    backgroundImg = loadImage(bg);
+    backgroundImg = bg;
   }
